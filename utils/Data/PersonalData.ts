@@ -23,5 +23,5 @@ export const personalData = {
   devUsername: "AyoubBouz",
   leetcode: "",
   resume:
-    "https://github.com/AyoubBouz",
+    "https://drive.google.com/file/d/1kmrr-n0TqfH84qP1IhefFW-E8_gXkVID/view?usp=sharing",
 };

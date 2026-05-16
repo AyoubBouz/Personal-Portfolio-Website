@@ -226,30 +226,30 @@ const HeroSection = () => {
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">01</span>
                     <p>
-                      <span className="text-red-500">const</span>{" "}
-                      <span className="text-white">developer</span> = {"{"}
+                      <span className="text-white">developer</span> ={" "}
+                      <span className="text-red-500">{"{"}</span>
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">02</span>
                     <p className="ml-4">
-                      <span className="text-slate-200">name:</span>{" "}
-                      <span className="text-red-300">'Ayoub Bouz'</span>,
+                      <span className="text-red-300">"name"</span>:{" "}
+                      <span className="text-red-300">"Ayoub Bouz"</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">03</span>
                     <p className="ml-4">
-                      <span className="text-slate-200">focus:</span>{" "}
-                      <span className="text-red-300">'AI &amp; Data Engineering'</span>,
+                      <span className="text-red-300">"focus"</span>:{" "}
+                      <span className="text-red-300">"AI &amp; Data Engineering"</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">04</span>
                     <p className="ml-4">
-                      <span className="text-slate-200">stack:</span> [
+                      <span className="text-red-300">"stack"</span>: [
                       <span className="text-red-300">
-                        'Python', 'LLMs', 'Pandas', 'Langchain'
+                        "Python", "LLMs", "Pandas", "Langchain"
                       </span>
                       ],
                     </p>
@@ -257,26 +257,28 @@ const HeroSection = () => {
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">05</span>
                     <p className="ml-4">
-                      <span className="text-slate-200">shipping:</span>{" "}
-                      <span className="text-red-600">true</span>,
+                      <span className="text-red-300">"shipping"</span>:{" "}
+                      <span className="text-red-600">True</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">06</span>
                     <p className="ml-4">
-                      <span className="text-slate-200">motto:</span>{" "}
-                      <span className="text-red-400">"From Data to Product"</span>
+                      <span className="text-red-300">"motto"</span>:{" "}
+                      <span className="text-red-400">"From Data to Product"</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">07</span>
-                    <p>{"};"}</p>
+                    <p>
+                      <span className="text-red-500">{"}"}</span>
+                    </p>
                   </div>
                   <div className="flex gap-4 mt-4">
                     <span className="text-slate-600 italic">08</span>
                     <p>
-                      <span className="text-red-500">developer</span>.
-                      <span className="text-white">showcase</span>();
+                      <span className="text-white">showcase</span>(
+                      <span className="text-red-500">developer</span>)
                     </p>
                   </div>
                 </code>

@@ -19,4 +19,11 @@ export const skillsData = [
   "Django",
   "Next JS",
   "React",
+  "Pandas",
+  "Langchain",
+  "LangGraph",
+  "ChromaDB",
+  "n8n",
+  "FastAPI",
+  "XGBoost",
 ];

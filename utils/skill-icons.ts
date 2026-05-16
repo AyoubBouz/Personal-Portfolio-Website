@@ -25,6 +25,8 @@ import {
   SiPytorch,
   SiNumpy,
   SiPandas,
+  SiLangchain,
+  SiN8N,
   SiScikitlearn,
   SiKeras,
   SiDocker,
@@ -117,6 +119,16 @@ export const getSkillIcon = (skill: string): IconType => {
       return SiNumpy;
     case "pandas":
       return SiPandas;
+    case "langchain":
+      return SiLangchain;
+    case "langgraph":
+      return SiHuggingface; // closest available AI/LLM icon
+    case "chromadb":
+      return SiRedis; // closest available vector/DB icon
+    case "n8n":
+      return SiN8N;
+    case "xgboost":
+      return SiScikitlearn; // closest available ML icon
     case "scikit-learn":
     case "sklearn":
       return SiScikitlearn;
@@ -222,6 +234,19 @@ export const getSkillColor = (skill: string): string => {
     case "django":
     case "flask":
       return "#7f1d1d";
+    case "langchain":
+    case "langgraph":
+      return "#1C3C3C";
+    case "chromadb":
+      return "#FF6B35";
+    case "n8n":
+      return "#EA4B71";
+    case "fastapi":
+      return "#009688";
+    case "xgboost":
+      return "#189ABE";
+    case "pandas":
+      return "#150458";
     default:
       return "#ef4444";
   }
